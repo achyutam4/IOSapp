@@ -3,10 +3,10 @@
 //  2ndProject_YT
 //
 //  Created by student on 27/01/25.
-//
-import FirebaseAuth
-import Foundation
 
+
+import Foundation
+import FirebaseAuth
 
 class LoginViewViewModel: ObservableObject {
     @Published var email = ""
@@ -19,7 +19,7 @@ class LoginViewViewModel: ObservableObject {
         guard validate() else{
             return
         }
-    //Try Log In
+      //Try Log in
         Auth.auth().signIn(withEmail: email,password: password)
     }
     
