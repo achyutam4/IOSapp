@@ -39,7 +39,7 @@
 		3F8A105E2D47642500AF52D1 /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A105D2D47642500AF52D1 /* ToDoListItemView.swift */; };
 		3F8A10602D47644C00AF52D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A105F2D47644C00AF52D1 /* User.swift */; };
 		3F8A10622D47646C00AF52D1 /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A10612D47646C00AF52D1 /* ToDoListItem.swift */; };
-		3F8A10642D47649200AF52D1 /* MainViewItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A10632D47649200AF52D1 /* MainViewItemModel.swift */; };
+		3F8A10642D47649200AF52D1 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A10632D47649200AF52D1 /* MainViewViewModel.swift */; };
 		3F8A10662D47697C00AF52D1 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A10652D47697C00AF52D1 /* ProfileViewViewModel.swift */; };
 		3F8A10682D47699100AF52D1 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A10672D47699100AF52D1 /* NewItemViewViewModel.swift */; };
 		3F8A106A2D4769C400AF52D1 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A10692D4769C400AF52D1 /* LoginViewViewModel.swift */; };
@@ -65,7 +65,7 @@
 		3F8A105D2D47642500AF52D1 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
 		3F8A105F2D47644C00AF52D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3F8A10612D47646C00AF52D1 /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
-		3F8A10632D47649200AF52D1 /* MainViewItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewItemModel.swift; sourceTree = "<group>"; };
+		3F8A10632D47649200AF52D1 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 		3F8A10652D47697C00AF52D1 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
 		3F8A10672D47699100AF52D1 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		3F8A10692D4769C400AF52D1 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
@@ -125,7 +125,6 @@
 			children = (
 				3F8A10542D47629F00AF52D1 /* Other */,
 				3F8A10532D47624900AF52D1 /* Models */,
-				3F8A10522D47623F00AF52D1 /* New Group */,
 				3F8A10512D47622100AF52D1 /* ViewModels */,
 				3F8A10502D47620900AF52D1 /* Views */,
 				3F8A103B2D4757C900AF52D1 /* Preview Content */,
@@ -159,13 +158,14 @@
 		3F8A10512D47622100AF52D1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				3F8A10632D47649200AF52D1 /* MainViewItemModel.swift */,
+				3F8A10632D47649200AF52D1 /* MainViewViewModel.swift */,
 				3F8A10652D47697C00AF52D1 /* ProfileViewViewModel.swift */,
 				3F8A106D2D476A0600AF52D1 /* ToDoListViewViewModel.swift */,
 				3F8A10672D47699100AF52D1 /* NewItemViewViewModel.swift */,
 				3F8A10692D4769C400AF52D1 /* LoginViewViewModel.swift */,
 				3F8A106B2D4769CB00AF52D1 /* RegisterViewViewModel.swift */,
 				3F8A106F2D476A3800AF52D1 /* ToDoListItemViewViewModel.swift */,
+				3F8A10522D47623F00AF52D1 /* New Group */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -301,7 +301,7 @@
 				3F627CF82D4E3B2F00C2693D /* Extensions.swift in Sources */,
 				3FDFE4D62D479037003270A1 /* HeaderView.swift in Sources */,
 				3F8A10582D47637400AF52D1 /* ToDoListView.swift in Sources */,
-				3F8A10642D47649200AF52D1 /* MainViewItemModel.swift in Sources */,
+				3F8A10642D47649200AF52D1 /* MainViewViewModel.swift in Sources */,
 				3F8A106A2D4769C400AF52D1 /* LoginViewViewModel.swift in Sources */,
 				3F8A10602D47644C00AF52D1 /* User.swift in Sources */,
 				3F8A10562D47634000AF52D1 /* ProfileView.swift in Sources */,
