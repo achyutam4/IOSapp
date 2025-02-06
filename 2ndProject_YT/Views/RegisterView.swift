@@ -37,6 +37,8 @@ struct RegisterView: View {
                 TLButton(title: "Create Account",background: .green)
                 {
                     viewModel.register()
+                    
+                    
                     //Attempt registration
                 }
                 .padding()
@@ -50,7 +52,13 @@ struct RegisterView: View {
     }
 }
             
+struct RegisterView_Previews: PreviewProvider {
+    static var previews: some View {
+        RegisterView()
+    }
+}
+/*}
   
 #Preview {
     RegisterView()
-}
+}*/

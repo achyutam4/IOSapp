@@ -46,6 +46,7 @@
 		3F8A106C2D4769CB00AF52D1 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A106B2D4769CB00AF52D1 /* RegisterViewViewModel.swift */; };
 		3F8A106E2D476A0600AF52D1 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A106D2D476A0600AF52D1 /* ToDoListViewViewModel.swift */; };
 		3F8A10702D476A3800AF52D1 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A106F2D476A3800AF52D1 /* ToDoListItemViewViewModel.swift */; };
+		3F9ABE932D535E3F00D3E1FB /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9ABE922D535E3F00D3E1FB /* NewItemView.swift */; };
 		3FDFE4D62D479037003270A1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDFE4D52D479037003270A1 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		3F8A106B2D4769CB00AF52D1 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		3F8A106D2D476A0600AF52D1 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
 		3F8A106F2D476A3800AF52D1 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		3F9ABE922D535E3F00D3E1FB /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
 		3FDFE4D52D479037003270A1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,9 +147,10 @@
 			children = (
 				3F8A10372D4757C700AF52D1 /* MainView.swift */,
 				3F8A10552D47634000AF52D1 /* ProfileView.swift */,
+				3F8A10572D47637400AF52D1 /* ToDoListView.swift */,
+				3F9ABE922D535E3F00D3E1FB /* NewItemView.swift */,
 				3F8A10592D47637F00AF52D1 /* LoginView.swift */,
 				3F8A105B2D47638600AF52D1 /* RegisterView.swift */,
-				3F8A10572D47637400AF52D1 /* ToDoListView.swift */,
 				3F8A105D2D47642500AF52D1 /* ToDoListItemView.swift */,
 				3FDFE4D52D479037003270A1 /* HeaderView.swift */,
 				3F7588BE2D491A1E006841FB /* TLButton.swift */,
@@ -160,10 +163,10 @@
 			children = (
 				3F8A10632D47649200AF52D1 /* MainViewViewModel.swift */,
 				3F8A10652D47697C00AF52D1 /* ProfileViewViewModel.swift */,
-				3F8A106D2D476A0600AF52D1 /* ToDoListViewViewModel.swift */,
 				3F8A10672D47699100AF52D1 /* NewItemViewViewModel.swift */,
 				3F8A10692D4769C400AF52D1 /* LoginViewViewModel.swift */,
 				3F8A106B2D4769CB00AF52D1 /* RegisterViewViewModel.swift */,
+				3F8A106D2D476A0600AF52D1 /* ToDoListViewViewModel.swift */,
 				3F8A106F2D476A3800AF52D1 /* ToDoListItemViewViewModel.swift */,
 				3F8A10522D47623F00AF52D1 /* New Group */,
 			);
@@ -295,6 +298,7 @@
 				3F7588BF2D491A1E006841FB /* TLButton.swift in Sources */,
 				3F8A105C2D47638600AF52D1 /* RegisterView.swift in Sources */,
 				3F8A10702D476A3800AF52D1 /* ToDoListItemViewViewModel.swift in Sources */,
+				3F9ABE932D535E3F00D3E1FB /* NewItemView.swift in Sources */,
 				3F8A105E2D47642500AF52D1 /* ToDoListItemView.swift in Sources */,
 				3F8A10382D4757C700AF52D1 /* MainView.swift in Sources */,
 				3F8A106E2D476A0600AF52D1 /* ToDoListViewViewModel.swift in Sources */,
@@ -440,9 +444,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"2ndProject_YT/Preview Content\"";
+				DEVELOPMENT_TEAM = MJS59ZN22W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "ToDo List";
@@ -459,6 +465,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "paruluniversity.-ndProject-YT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,9 +477,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"2ndProject_YT/Preview Content\"";
+				DEVELOPMENT_TEAM = MJS59ZN22W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "ToDo List";
@@ -489,6 +498,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "paruluniversity.-ndProject-YT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

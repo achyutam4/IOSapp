@@ -6,3 +6,19 @@
 //
 
 import Foundation
+
+class NewItemViewViewModel: ObservableObject {
+    @Published var title = ""
+    @Published var dueDate = Date()
+  
+
+        func save() {
+            // Implement save functionality here
+            print("Saving: \(title), Due Date: \(dueDate)")
+        }
+    }
+
+   // init(){}
+    
+
+ 
