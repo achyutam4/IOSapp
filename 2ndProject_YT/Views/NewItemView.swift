@@ -17,6 +17,7 @@ struct NewItemView: View {
             Text("New Item")
                 .font(.system(size: 32))
                 .bold()
+                .padding(.top, 100) //01:38:00 to understand padding after clicking add new(+) button
             
             Form{
                 //title
@@ -30,13 +31,18 @@ struct NewItemView: View {
                 // button
                 TLButton(title: "Save",
                          background: .pink
-                ){
+                ) {
                     viewModel.save()
                     newItemPresented = false
                     
                     //presentationMode.wrappedValue.dismiss()
                 }
                 .padding()
+            }
+            .alert(isPresented: $viewModel.showalert ){
+                Alert(
+                    title: Text("Error"),
+                    message: Text("Please fill in all fields and select due date that is today is today or newer."))
             }
             .navigationTitle("New Item")
                 
